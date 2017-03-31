@@ -1,0 +1,77 @@
+body {
+  /*background-color: white;*/
+  text-align: center;
+  margin: 20px 150px;
+}
+
+/*#cloud-scroll {
+  width: 300px;
+  height: 300px;
+  background: url(../images/clouds.jpg);
+  -webkit-animation: backgroundScroll 20s linear infinite;
+  animation: backgroundScroll 20s linear infinite;
+}
+
+@-webkit-keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -400px 0;}
+}
+
+@keyframes backgroundScroll {
+  from {background-position: 0 0;}
+  to {background-position: -400px 0;}
+}*/
+
+.parallax {
+  background-image: url("https://unsplash.it/1000/1000");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*html {
+  animation: 100s para infinite linear;
+  background-attachment: fixed;
+  background-color: hsla(200, 40%, 30%, 0.4);
+  background-image:
+    url('http://www.clker.com/cliparts/q/L/o/j/C/Q/forest-hi.png'),
+    url('http://www.inserthtml.com/parallax/trees.png'),
+    url('https://db.tt/cKICP4Xj'),
+    url('http://www.augstudy.com/images/theme/impress/bg_mountains.png'),
+    url('https://db.tt/vKBcgeOj');
+  background-position:
+    0 20%,
+    0 95%,
+    0 0,
+    0 100%,
+    0 0;
+  background-repeat: repeat-x;
+  background-size:
+    2500px,
+    800px,
+    500px 200px,
+    1000px,
+    400px 260px;
+  height: 100%;
+  width: 1000px;
+
+   /*for vertical animation use below*/
+  /*background-image: url(../images/background.jpg);*/
+  /*background-repeat: repeat-y;
+}
+
+@keyframes para {
+  100% {
+    background-position:
+      -5000px 20%,
+      -800px 95%,
+      500px 0,
+      1000px 100%,
+      400px 0;
+
+    /* for vertical animation use below*/
+    /*background-position: 0 -100%;
+  }
+}*/

@@ -1,0 +1,160 @@
+.story {
+  display: flex;
+  flex-direction: column;
+}
+
+.story > div {
+  border-bottom: 1px solid lightgrey;
+  border-top: 1px solid lightgrey;
+  font-family: Arial,sans-serif;
+  font-weight: 400;
+  display: flex;
+}
+
+.story .text {
+  padding: 20px 50px;
+  text-align: left;
+}
+
+.story .text h1 {
+  font-size: 3em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.story .text p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.story .text a {
+  color: black;
+  transition: all 500ms;
+}
+
+.story .text a:hover {
+  color: #00FFFF;
+  /*font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 2em;*/
+}
+
+.story .text button {
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  background-color: inherit;
+  transition: all 500ms;
+}
+
+.story .text button:hover {
+  color: #00FFFF;
+  border: 1px solid #00FFFF;
+}
+
+.story .style1 .text {
+  width: 47%;
+}
+
+.story .style1 img {
+  width: 53%;
+}
+
+.story .style1 .text p:nth-child(1) {
+  font-size: 1.25rem;
+  font-weight: 100;
+}
+
+.style2, .style5 {
+  display: block;
+  background-image: url("https://unsplash.it/1000/1000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  padding: 50px;
+  background-position: center;
+}
+
+.style5 .text, .style5 button, .style5 a {
+  color: white;
+}
+
+.story .style5 button {
+  border: 1px solid white;
+}
+
+.style2 .text, .style2 h1 {
+  transition: all 500ms;
+}
+
+.style2 .text:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px hsla(0, 0%, 0%, 0.5);
+}
+
+.style2 .text, .style3 .text, .style5 .text  {
+  background-color: white;
+  max-width: 45%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.style2 .text.scheme, .style3 .text.scheme, .style5 .text.scheme {
+  background-color: black;
+}
+
+.style3 {
+  background-image: url("https://unsplash.it/400/400");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: flex-start;
+  padding: 50px;
+  padding-left: 0;
+  overflow: hidden;
+  background-position: center;
+}
+
+.style3 .text {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  text-align: left;
+  padding: 36px;
+}
+
+.style4 {
+  padding: 60px;
+  align-items: center;
+}
+
+.style4 img {
+  border-radius: 100%;
+}
+
+.style5 .text {
+  background-color: inherit;
+  max-width: 55%;
+}
+
+.style5.schemeBg .text {
+  color: black;
+}
+
+.style5.schemeBg button {
+  color: black;
+  border: 1px solid black;
+}
+
+.scheme {
+  background-color: black;
+  color: white;
+}
+
+.schemeBg {
+  opacity: 0.5;
+}
+
+.orientation {
+  order: 1;
+}

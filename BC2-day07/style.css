@@ -1,0 +1,45 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:700i');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,700');
+
+.story {
+  padding: 40px;
+}
+
+.story h1 {
+  color: #f8512f;
+  font-family: 'Lobster Two', cursive;
+  text-shadow: 1px 1px 1.5px #000;
+  font-size: 52px;
+}
+
+.story h4 {
+  font-weight: 600;
+}
+
+/*.bg {
+  color: #adadad;
+}*/
+
+#background {
+   position: absolute;
+   top: 50%;
+   left: 15;
+   font-size: 10em;
+   color: #eae9e9;
+   font-weight: 900;
+   /*z-index: -1;*/
+   font-family: 'Crimson Text', serif;
+   overflow: hidden;
+}
+
+.banner {
+  height: 100%;
+}
+
+.veggie-bg {
+  background-image: url('img/veggies.jpg');
+  background-size: cover;
+  background-position: center;
+}

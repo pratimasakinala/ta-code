@@ -1,0 +1,27 @@
+.one p {
+  display: inline;
+}
+
+.col-sm-5 {
+  background-color: green;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.col-sm-7 {
+  background-color: red;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.col-xs-12 {
+  background-color: blue;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.col-xs-6 {
+  background-color: orange;
+  height: 200px;
+  border: 1px solid black;
+}

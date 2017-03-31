@@ -1,0 +1,22 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+.container>div {
+  border: 1px solid #000;
+  height: 200px;
+  width: 200px;
+}
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+}

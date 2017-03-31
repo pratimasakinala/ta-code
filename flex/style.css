@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-content: center;
+  border: 1px solid black;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+.click {
+  height: 20px;
+  width: 50px;
+  /*align-self: center;*/
+}

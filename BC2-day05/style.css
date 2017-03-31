@@ -1,0 +1,102 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+p {
+  font-size: 16px;
+}
+
+#logo-styles {
+  font-family: 'Satisfy', cursive;
+  color: #ff827b;
+}
+
+#logo-img {
+  width: 90px;
+}
+
+.jumbotron {
+  background-image: url('img/pet-store-home.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 400px;
+}
+
+.product {
+  /*margin-left: 3px;*/
+}
+
+.thumbnail {
+  border: none;
+  background-color: #edf1f4;
+}
+
+.nav-pills {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-pills a {
+  color: #75b8e9;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #231f20;
+  height: 100%;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #bfc0c1;
+}
+
+footer a:hover {
+  color: #bfc0c1;
+  text-decoration: none;
+}
+
+footer p {
+  color: #4e4e4e;
+}
+
+footer .address p, footer .social p {
+  color: #bfc0c1;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.address, .social {
+  border-left: 1px solid #4e4e4e;
+  padding: 10px 20px;
+}
+
+footer .container {
+  margin-top: 20px;
+}
+
+footer .container div:nth-child(2) {
+  margin-top: 5px;
+}
+
+footer #logo-img {
+  width: 120px;
+}
+
+.contact .info img {
+  width: 100%;
+}
+
+.buffer-top {
+  margin-top: 10px;
+}
+
+.buffer-top-medium {
+  margin-top: 25px;
+}
+
+.location {
+  padding-left: 15px;
+}

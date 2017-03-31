@@ -1,0 +1,41 @@
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+.black {
+  background-color: #000;
+}
+
+.small {
+  height: 30px;
+}
+
+.medium {
+  height: 50px;
+}
+
+.large {
+  height: 250px;
+}
+
+.extra-large {
+  height: 400px;
+}
+
+.buffer {
+  margin-right: 18px;
+}
+
+.small-buffer {
+  margin-bottom: 18px;
+}
+
+.medium-buffer {
+  margin-bottom: 30px;
+}
+
+.large-buffer {
+  margin-bottom: 45px;
+}
+
+.top-buffer {
+  margin-top: 18px;
+}
